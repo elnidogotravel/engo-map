@@ -333,10 +333,8 @@ function setupSheetClose() {
 // ── 關於彈窗 ────────────────────────────
 function setupInfoModal(data) {
   const modal = document.getElementById('infoModal');
-  const descEl = document.getElementById('infoDesc');
   const metaEl = document.getElementById('infoMeta');
 
-  descEl.innerHTML = data.description || '';
   const d = new Date(data.updatedAt);
   metaEl.textContent = `共 ${data.totalPlaces} 個地標 · 最後更新 ${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}`;
 
