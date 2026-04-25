@@ -430,7 +430,7 @@ html, body {
 }
 
 .list-panel[hidden] {
-  display: flex !important;
+  display: none;
 }
 
 .list-header {
@@ -605,7 +605,7 @@ html, body {
 }
 
 .detail-sheet[hidden] {
-  display: block !important;
+  display: none;
 }
 
 .sheet-handle {
