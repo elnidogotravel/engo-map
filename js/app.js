@@ -227,8 +227,10 @@ function openList(category) {
       const item = places[parseInt(li.dataset.idx, 10)];
       closeList();
       setTimeout(() => {
-        map.setView([item.place.lat, item.place.lng], 17);
-        openSheet(item.place, category, item.isWarn);
+        // 用 cluster API 確保 marker 真的在畫面上（如果還在群聚裡會自動展開）
+        cluster.zoomToShowLayer(item.marker, () => {
+          openSheet(item.place, category, item.isWarn, item.marker);
+        });
       }, 280);
     });
   });
@@ -258,7 +260,7 @@ function renderMarkers(categories) {
         title: place.name,
       });
 
-      marker.on('click', () => openSheet(place, cat.name, isWarn));
+      marker.on('click', () => openSheet(place, cat.name, isWarn, marker));
       cluster.addLayer(marker);
       allPlaces.push({ place, category: cat.name, marker, isWarn });
     });
@@ -275,8 +277,18 @@ function buildIcon(iconName, color, isWarn) {
   });
 }
 
+// 將指定 marker 標為高亮（其他取消）。傳 null 表示全部取消。
+function setActivePin(marker) {
+  document.querySelectorAll('.pin.active').forEach((el) => el.classList.remove('active'));
+  if (!marker) return;
+  const el = marker.getElement();
+  if (!el) return;
+  const pin = el.querySelector('.pin');
+  if (pin) pin.classList.add('active');
+}
+
 // ── 詳情面板 ────────────────────────────
-function openSheet(place, category, isWarn) {
+function openSheet(place, category, isWarn, marker) {
   const sheet = document.getElementById('detailSheet');
   document.getElementById('sheetName').innerHTML =
     escapeHtml(place.name) + (isWarn ? '<span class="warn-badge">踩雷</span>' : '');
@@ -303,7 +315,9 @@ function openSheet(place, category, isWarn) {
 
   // 地圖微調：讓 marker 不被面板蓋住
   map.panTo([place.lat, place.lng], { animate: true });
-  activeMarker = { place, category };
+  activeMarker = { place, category, marker };
+  // 高亮選中的 pin（等 panTo 結束再標，避免被群聚動畫覆蓋）
+  setTimeout(() => setActivePin(marker), 200);
 }
 
 function closeSheet() {
@@ -311,6 +325,7 @@ function closeSheet() {
   sheet.setAttribute('data-open', 'false');
   setTimeout(() => sheet.setAttribute('hidden', ''), 300);
   activeMarker = null;
+  setActivePin(null);
 }
 
 function setupSheetClose() {
