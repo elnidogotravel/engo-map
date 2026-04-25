@@ -1,0 +1,17 @@
+# Mac 系統垃圾檔
+.DS_Store
+
+# Claude Code 本地設定
+.claude/
+
+# Node 相關（之後 sync-kml.js 用 npm 才會有）
+node_modules/
+npm-debug.log*
+
+# 編輯器
+.vscode/
+.idea/
+
+# 環境變數（之後可能會用）
+.env
+.env.local

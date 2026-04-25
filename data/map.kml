@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>深深攻略地圖</name>
+    <description><![CDATA[深深愛上愛妮島秘笈都在這了<br>這可是我們歷年下來為各位嘗試百毒踩雷下來的血淚之作，有列出來都能放心去吃，沒有的可以問問導遊<br>有不同圖層不同項目，歡迎找尋想要的店家喔！]]></description>
+    <Style id="icon-1502-795548-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-795548-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-795548">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-795548-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-795548-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1517-673AB7-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1517-673AB7-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1517-673AB7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1517-673AB7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1517-673AB7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1517-673AB7-nodesc-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1517-673AB7-nodesc-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1517-673AB7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1517-673AB7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1517-673AB7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1534-7CB342-labelson">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1541-FF5252-labelson">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1567-7CB342-labelson">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1577-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1577-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1592-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1592-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1592-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1592-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1592-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1592-E65100-labelson">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1592-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1592-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1592-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1592-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1592-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1596-F9A825-labelson">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1602-C2185B-labelson-nodesc">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1861-F9A825-labelson">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1897-F9A825-labelson">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>旅館位置</name>
+      <Placemark>
+        <name>Piece Lio Resort, El Nido</name>
+        <styleUrl>#icon-1602-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.4173195,11.206496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>H Hotel El Nido - Vegetarian Vegan Hotel</name>
+        <styleUrl>#icon-1602-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.3893831,11.1799918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>S Resort El Nido</name>
+        <styleUrl>#icon-1602-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.3892078,11.180012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nacpan Beach Glamping (H Hotel Group)</name>
+        <styleUrl>#icon-1602-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.4222488,11.3128738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nacpan Beach Resort (H Hotel Group)</name>
+        <styleUrl>#icon-1602-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.4221361,11.3126055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nacpan Beach Villa</name>
+        <styleUrl>#icon-1602-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.4233164,11.3136336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Cecilia</name>
+        <styleUrl>#icon-1602-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.3894054,11.1794033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>J Boutique Hotel El Nido</name>
+        <styleUrl>#icon-1602-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.3912799,11.1763085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行程地標</name>
+      <Placemark>
+        <name>Canopy Walk石灰岩爬山</name>
+        <description><![CDATA[直接到門口就可以報名上去了<br>會有當地導遊，約30-1hr<br>一人是700peso+30peso環境費]]></description>
+        <styleUrl>#icon-1596-F9A825-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3902419,11.1776809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zipline空中飛索</name>
+        <description><![CDATA[搭乘嘟嘟車到麥當勞商場區(約150peso/10min)<br>走到底到沙灘，沙灘左邊走到底就會看到了！]]></description>
+        <styleUrl>#icon-1897-F9A825-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3922257,11.14454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Dive</name>
+        <description><![CDATA[日本人開的潛水店<br>深深配合潛店]]></description>
+        <styleUrl>#icon-1861-F9A825-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3896047,11.1791897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>餐廳推薦</name>
+      <Placemark>
+        <name>Ver De El Nido 蔬食餐廳</name>
+        <description><![CDATA[Sylvia&小編最愛<br>素食者不用說絕對愛爆<br>但他顛覆葷食者三觀，讓小編一週可以吃4次<br>午餐-優格碗-咖啡-晚餐通通都大推]]></description>
+        <styleUrl>#icon-1592-E65100-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.389259,11.1802399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunmai Sunset Restaurant</name>
+        <description><![CDATA[Nacpan 最棒沙灘餐廳&酒吧<br>在這混整天都可以<br>披薩.豬肋排必吃]]></description>
+        <styleUrl>#icon-1592-E65100-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.4222412,11.3129091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piece of Sky El Nido</name>
+        <description><![CDATA[可以看著愛妮島鎮沙灘晚霞享用晚餐<br>高品質的菲式餐酒館<br>魚排,脆皮豬排,pork sisi必點]]></description>
+        <styleUrl>#icon-1592-E65100-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3894111,11.1799674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oceanview Chinese Restaurant (望海楼中式餐厅)</name>
+        <description>深深行程團第一天晚餐</description>
+        <styleUrl>#icon-1592-E65100-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3891563,11.1800613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lechon Co by H Hospitality Group</name>
+        <description>大節日才能吃到的脆皮烤乳豬，現在這裡也可以吃到摟！</description>
+        <styleUrl>#icon-1592-E65100-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3893787,11.1800086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Bad Thai 泰式</name>
+        <description><![CDATA[最好吃泰式無誤（畢竟只有一家）<br>但真的很好吃拉！<br>旺季需要訂位非常熱門的一家餐廳]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3910627,11.1812555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Food Truck 泰式</name>
+        <description>也算好吃又可愛的卡車餐車</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3916427,11.1814287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Not so Thai 越+泰</name>
+        <description>越南＋泰國餐廳</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3903962,11.1775069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Altrov'e Express Pizza]]></name>
+        <description><![CDATA[之前最有名的pizza店搬家到這裡喔！<br>松露披薩.燉飯必吃！！<br>現在有兩間分店喔！（在對面而以）]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3912897,11.1811226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BASIL Pizza Elnido</name>
+        <description><![CDATA[原本最有名pizza原址開另一家pizza<br>也好吃但小編覺得偏油<br>然後要脫鞋（？]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3915491,11.1814198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Gorgonzola Pizza & Pasta - El Nido]]></name>
+        <description>素食超大披薩</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3917498,11.1816328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Angel Wish 海鮮</name>
+        <description><![CDATA[當地海鮮菲式餐廳，門口直接挑選新鮮海鮮<br>重口味.海鮮沒問題！<br>但腸胃敏感者建議還是不要嘗試海鮮]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3889593,11.1804056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Haim Chicken Restaurant</name>
+        <description>菲律賓連鎖快餐店，著名烤雞飯好吃！</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3891491,11.179931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Maa's Grill 菲律賓料理]]></name>
+        <description><![CDATA[便宜好吃的菲律賓當地料理<br>他的咖哩很好吃！]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.389755,11.1803474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Inasal Eats Co. El Nido 菲律賓料理</name>
+        <description><![CDATA[菲律賓當地烤肉飯餐廳<br>算難得乾淨的一間<br>蠻推薦可以來體驗手抓飯喔！（還是可以用餐具）]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3912676,11.1810502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Nido Boutique Artcafe</name>
+        <description><![CDATA[有自己農場的老字號餐廳<br>西式餐點跟菲餐都還不錯]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3879394,11.1801397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>I.B.R restaurant 菲律賓料理</name>
+        <description><![CDATA[如果想試試菲律賓當地料理<br>可以來試試看....<br>安全能吃，但不保證好吃好哈哈<br>深深只吃他們家的LOMI，酒後好食]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3906964,11.1807472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Happiness Beach Bar</name>
+        <description>總是人超多的異國餐廳</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3883365,11.18018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DRYFT Fish OOPA 韓式</name>
+        <description>韓式餐廳，都好吃！！</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3903539,11.180601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Biryani Kitchen 印度料理</name>
+        <description><![CDATA[印度炒飯份量大又好吃<br>印度餅配咖哩也很讚<br>但咖哩口味很異國，自行斟酌]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3903938,11.1804405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chef Mark Style Italian and Japanese Restaurant</name>
+        <description><![CDATA[什麼都賣的綜合餐廳<br>但蔬菜天婦羅便宜又好吃，丼飯還可以<br>生魚片不要點，披薩義大利麵普通<br>拉麵比另一間日式好吃，但也不到多好吃<br>就是間，真的不知道要吃什麼再來的店]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3883835,11.1802003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osaka Castle 日式</name>
+        <description><![CDATA[日本人開的日式料理～<br>但其實普通（？<br>丼飯跟章魚燒可吃！]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3911956,11.1813067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[McDonald's]]></name>
+        <styleUrl>#icon-1577-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.3988863,11.1470463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barakuda Seafood Restaurant</name>
+        <description><![CDATA[高級的創意當地料理餐廳<br>想要氣氛好又好吃可以來<br>（但比較貴）]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3897294,11.1803401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tales Of The Islands</name>
+        <description>健康走向的餐廳！吃膩大魚大肉可以來吃這間，東西都很好吃</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.388804,11.1802859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rice8Spice 燒臘飯</name>
+        <description>好吃的燒臘燒雞飯！</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3905376,11.1805632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHAO CHAO ramen/bao</name>
+        <description>小食店，刈包跟拉麵都蠻好吃</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.391278,11.1812338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centralè</name>
+        <description><![CDATA[外國人很愛的餐廳<br>串烤盤餐很澎湃]]></description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3892654,11.1797447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tutto Passa義大利餐廳</name>
+        <description>義大利麵很正中好吃！披薩也好吃！</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3932183,11.1836798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fuego El Nido. PROPER BURGERS</name>
+        <description>美式漢堡店，喜歡吃的可以來</description>
+        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3931843,11.1835808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BURNING SUN KOREAN AUTHENTIC RESTAURANT(엘니도 버닝선 한식당)</name>
+        <description><![CDATA[絕對不要吃<br>這間讓好幾團團滅過]]></description>
+        <styleUrl>#icon-1541-FF5252-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3897608,11.1789528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>咖啡廳小食推薦</name>
+      <Placemark>
+        <name>Grounded 100% Arabica Coffee, El Nido Branch</name>
+        <description><![CDATA[深深最愛咖啡廳！<br>真的喝下來最好喝就是他們家]]></description>
+        <styleUrl>#icon-1592-E65100-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3892264,11.1799692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UNOCHA El Nido -The Best Taiwan Milk Tea</name>
+        <description>台灣的驕傲，一定要來一杯</description>
+        <styleUrl>#icon-1592-E65100-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3895526,11.1800287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>88 Bar 外的香蕉煎餅攤車</name>
+        <description>深深唯一推薦的香蕉or芒果煎餅</description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3895398,11.1802886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3 Bros Falafel</name>
+        <description>超好吃又大份卷餅，開到很晚，宵夜可吃</description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3893192,11.1800024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holy Smoke Mediterranean Food House</name>
+        <description>也是中東卷餅，好吃～</description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3904982,11.1806751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Pick Take & Shake]]></name>
+        <description>小編最愛果汁店，不加一滴水，純水果下去打！</description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3892888,11.1797497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Potato corner</name>
+        <description><![CDATA[深深導遊俗稱的邪惡薯條～好吃！<br>聽說台灣要排隊3小時？]]></description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3893849,11.1794741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Suavis 沙威瑪</name>
+        <description><![CDATA[便宜又好吃的沙威瑪捲餅！<br>適合出海回來來一捲！]]></description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.38857,11.1802293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oz El Nido</name>
+        <description><![CDATA[verde還沒開前<br>最喜歡的優格碗]]></description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3896724,11.1803228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gusto Gelato</name>
+        <description>好吃的義式冰～</description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3891382,11.1804152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Kyle Fresh Fruit Shakes & Juices]]></name>
+        <description>好喝的果汁店！</description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.39147,11.1814512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Midtown El Nido Bakery</name>
+        <description><![CDATA[好吃10peso甜甜圈～<br>我是沒吃過其他，歡迎嘗試跟我們分享]]></description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3893623,11.179534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Tienda Delicatessen</name>
+        <description>熱壓三明治超級好吃很大一份</description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3895177,11.1797774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CB Cafe </name>
+        <description>想體驗菲式早餐可來這</description>
+        <styleUrl>#icon-1534-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3893318,11.1793768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taste</name>
+        <description>全素咖啡廳</description>
+        <styleUrl>#icon-1534-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3895829,11.1794547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kopi Bake</name>
+        <description>Grounded還沒開前，小編最愛的咖啡</description>
+        <styleUrl>#icon-1534-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3895095,11.1798173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hama Coffee El Nido</name>
+        <description>海景咖啡廳</description>
+        <styleUrl>#icon-1534-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3922543,11.1827629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luway Luway Cafe</name>
+        <description>素食咖啡廳</description>
+        <styleUrl>#icon-1534-7CB342-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            119.3925628,11.1828962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>商場＆實用</name>
+      <Placemark>
+        <name><![CDATA[Oriental Spa & Massage (El Nido Branch)]]></name>
+        <description><![CDATA[全新開幕鎮上最高級spa<br>記得一到手刀上門預約]]></description>
+        <styleUrl>#icon-1592-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            119.3893352,11.1800281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Go relax massage and spa</name>
+        <description>想體驗平價版按摩這間可以</description>
+        <styleUrl>#icon-1502-795548</styleUrl>
+        <Point>
+          <coordinates>
+            119.3892386,11.1803985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>賣場Prince Hypermart El Nido</name>
+        <description>愛妮島家樂福</description>
+        <styleUrl>#icon-1502-795548</styleUrl>
+        <Point>
+          <coordinates>
+            119.3910841,11.1770428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roxas Pharmacy藥局</name>
+        <description>急需買藥的話，有藥局</description>
+        <styleUrl>#icon-1502-795548</styleUrl>
+        <Point>
+          <coordinates>
+            119.3895204,11.1794764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tales of the Islands門口換匯</name>
+        <description><![CDATA[不用懷疑就在這間餐廳外面<br>一個大叔跟竹編小店面的local換匯所<br>匯率還不錯，急需可在這換]]></description>
+        <styleUrl>#icon-1502-795548</styleUrl>
+        <Point>
+          <coordinates>
+            119.388852,11.1802938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>雜貨店Marchylle Souvenir And Pasalubong Center</name>
+        <description>電話卡衛生棉礦泉水防水包各種東西都能在這找到</description>
+        <styleUrl>#icon-1502-795548</styleUrl>
+        <Point>
+          <coordinates>
+            119.3896056,11.1802694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Nido PowerClean</name>
+        <description>洗衣服的地方</description>
+        <styleUrl>#icon-1502-795548</styleUrl>
+        <Point>
+          <coordinates>
+            119.3895946,11.1793963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>雜貨店El Nido Boutique Artcafe</name>
+        <description>海洋友善防曬乳.衛生棉條這類稀有物可以在這裡找到</description>
+        <styleUrl>#icon-1502-795548</styleUrl>
+        <Point>
+          <coordinates>
+            119.3879394,11.1801397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rituals Spa</name>
+        <description>要打海芙音波請來這！</description>
+        <styleUrl>#icon-1502-795548</styleUrl>
+        <Point>
+          <coordinates>
+            119.3930781,11.1838106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>酒吧夜生活</name>
+      <Placemark>
+        <name>Piece of sky El Nido (6F H hotel)</name>
+        <description>H hotel 頂樓海景酒吧，一定要來喝一杯</description>
+        <styleUrl>#icon-1592-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            119.3894814,11.1800503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAVA Beach Bar</name>
+        <description>最有名的酒吧，沒來過別說跑過愛尼島bar</description>
+        <styleUrl>#icon-1517-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            119.3906084,11.1809181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tribu Kuridas Bar And Tattoo</name>
+        <description><![CDATA[會有現場live band唱的很好聽<br>氣氛很好]]></description>
+        <styleUrl>#icon-1517-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            119.3895864,11.1806734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Odessa Mama Cafe and Boodmo Brewery</name>
+        <description>要喝釀造生啤酒在這裡～</description>
+        <styleUrl>#icon-1517-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            119.3894904,11.1803708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amigos bar</name>
+        <description><![CDATA[像夜店的酒吧<br>12點後會非常嗨]]></description>
+        <styleUrl>#icon-1517-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            119.3908073,11.1810162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Pangolin Cocktail Bar</name>
+        <description><![CDATA[有冷氣的酒吧<br>異國風音樂]]></description>
+        <styleUrl>#icon-1517-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            119.391117,11.1809948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oz El Nido</name>
+        <styleUrl>#icon-1517-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.3896724,11.1803228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pukka Bar</name>
+        <styleUrl>#icon-1517-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            119.3904987,11.1806776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[AP KALA beach bar & modern cafe]]></name>
+        <description>靠海邊，環境很舒服寬廣，適合懶懶的躺在沙發上小酌一杯</description>
+        <styleUrl>#icon-1517-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            119.3928057,11.1838006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
