@@ -236,7 +236,7 @@
         <styleUrl>#icon-1592-FF5252-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1596-F9A825-labelson">
+    <Style id="icon-1596-F9A825-labelson-nodesc">
       <IconStyle>
         <color>ff25a8f9</color>
         <scale>1</scale>
@@ -244,6 +244,9 @@
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
     </Style>
     <Style id="icon-1602-C2185B-labelson-nodesc">
       <IconStyle>
@@ -266,7 +269,7 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="icon-1897-F9A825-labelson">
+    <Style id="icon-1897-F9A825-labelson-nodesc">
       <IconStyle>
         <color>ff25a8f9</color>
         <scale>1</scale>
@@ -274,6 +277,9 @@
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
     </Style>
     <Folder>
       <name>旅館位置</name>
@@ -354,8 +360,7 @@
       <name>行程地標</name>
       <Placemark>
         <name>Canopy Walk石灰岩爬山</name>
-        <description><![CDATA[直接到門口就可以報名上去了<br>會有當地導遊，約30-1hr<br>一人是700peso+30peso環境費]]></description>
-        <styleUrl>#icon-1596-F9A825-labelson</styleUrl>
+        <styleUrl>#icon-1596-F9A825-labelson-nodesc</styleUrl>
         <Point>
           <coordinates>
             119.3902419,11.1776809,0
@@ -364,8 +369,7 @@
       </Placemark>
       <Placemark>
         <name>Zipline空中飛索</name>
-        <description><![CDATA[搭乘嘟嘟車到麥當勞商場區(約150peso/10min)<br>走到底到沙灘，沙灘左邊走到底就會看到了！]]></description>
-        <styleUrl>#icon-1897-F9A825-labelson</styleUrl>
+        <styleUrl>#icon-1897-F9A825-labelson-nodesc</styleUrl>
         <Point>
           <coordinates>
             119.3922257,11.14454,0
@@ -447,7 +451,7 @@
       </Placemark>
       <Placemark>
         <name>The Food Truck 泰式</name>
-        <description>也算好吃又可愛的卡車餐車</description>
+        <description>也好吃又可愛的卡車餐車</description>
         <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -586,18 +590,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Chef Mark Style Italian and Japanese Restaurant</name>
-        <description><![CDATA[什麼都賣的綜合餐廳<br>但蔬菜天婦羅便宜又好吃，丼飯還可以<br>生魚片不要點，披薩義大利麵普通<br>拉麵比另一間日式好吃，但也不到多好吃<br>就是間，真的不知道要吃什麼再來的店]]></description>
-        <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
-        <Point>
-          <coordinates>
-            119.3883835,11.1802003,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Osaka Castle 日式</name>
-        <description><![CDATA[日本人開的日式料理～<br>但其實普通（？<br>丼飯跟章魚燒可吃！]]></description>
+        <description><![CDATA[日本人開的日式料理～<br>丼飯跟章魚燒可吃！]]></description>
         <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -666,7 +660,7 @@
       </Placemark>
       <Placemark>
         <name>Tutto Passa義大利餐廳</name>
-        <description>義大利麵很正中好吃！披薩也好吃！</description>
+        <description>義大利麵很好吃！披薩也好吃！</description>
         <styleUrl>#icon-1577-0288D1-labelson</styleUrl>
         <Point>
           <coordinates>
@@ -696,7 +690,7 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>咖啡廳小食推薦</name>
+      <name>咖啡小食</name>
       <Placemark>
         <name>Grounded 100% Arabica Coffee, El Nido Branch</name>
         <description><![CDATA[深深最愛咖啡廳！<br>真的喝下來最好喝就是他們家]]></description>
@@ -708,22 +702,22 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>UNOCHA El Nido -The Best Taiwan Milk Tea</name>
-        <description>台灣的驕傲，一定要來一杯</description>
-        <styleUrl>#icon-1592-E65100-labelson</styleUrl>
+        <name>Janu Coffee and Tea</name>
+        <description>很漂亮的咖啡茶館，店員會現磨茶給你看</description>
+        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
         <Point>
           <coordinates>
-            119.3895526,11.1800287,0
+            119.389205,11.1799982,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>88 Bar 外的香蕉煎餅攤車</name>
-        <description>深深唯一推薦的香蕉or芒果煎餅</description>
+        <name>YoNido! Island Froyo</name>
+        <description>超級好吃的優格冰！！必吃！</description>
         <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
         <Point>
           <coordinates>
-            119.3895398,11.1802886,0
+            119.3893914,11.179958,0
           </coordinates>
         </Point>
       </Placemark>
@@ -758,32 +752,12 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Potato corner</name>
-        <description><![CDATA[深深導遊俗稱的邪惡薯條～好吃！<br>聽說台灣要排隊3小時？]]></description>
-        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
-        <Point>
-          <coordinates>
-            119.3893849,11.1794741,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Suavis 沙威瑪</name>
         <description><![CDATA[便宜又好吃的沙威瑪捲餅！<br>適合出海回來來一捲！]]></description>
         <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
         <Point>
           <coordinates>
             119.38857,11.1802293,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Oz El Nido</name>
-        <description><![CDATA[verde還沒開前<br>最喜歡的優格碗]]></description>
-        <styleUrl>#icon-1567-7CB342-labelson</styleUrl>
-        <Point>
-          <coordinates>
-            119.3896724,11.1803228,0
           </coordinates>
         </Point>
       </Placemark>
@@ -824,16 +798,6 @@
         <Point>
           <coordinates>
             119.3895177,11.1797774,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>CB Cafe </name>
-        <description>想體驗菲式早餐可來這</description>
-        <styleUrl>#icon-1534-7CB342-labelson</styleUrl>
-        <Point>
-          <coordinates>
-            119.3893318,11.1793768,0
           </coordinates>
         </Point>
       </Placemark>
@@ -957,16 +921,6 @@
         <Point>
           <coordinates>
             119.3879394,11.1801397,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Rituals Spa</name>
-        <description>要打海芙音波請來這！</description>
-        <styleUrl>#icon-1502-795548</styleUrl>
-        <Point>
-          <coordinates>
-            119.3930781,11.1838106,0
           </coordinates>
         </Point>
       </Placemark>

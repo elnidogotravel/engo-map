@@ -1,8 +1,8 @@
 {
   "mapName": "深深攻略地圖",
   "description": "深深愛上愛妮島秘笈都在這了<br>這可是我們歷年下來為各位嘗試百毒踩雷下來的血淚之作，有列出來都能放心去吃，沒有的可以問問導遊<br>有不同圖層不同項目，歡迎找尋想要的店家喔！",
-  "updatedAt": "2026-04-25T12:55:48.408Z",
-  "totalPlaces": 78,
+  "updatedAt": "2026-04-25T13:51:28.953Z",
+  "totalPlaces": 73,
   "categories": [
     {
       "name": "旅館位置",
@@ -70,14 +70,14 @@
       "places": [
         {
           "name": "Canopy Walk石灰岩爬山",
-          "description": "直接到門口就可以報名上去了<br>會有當地導遊，約30-1hr<br>一人是700peso+30peso環境費",
+          "description": "",
           "lat": 11.1776809,
           "lng": 119.3902419,
           "color": "F9A825"
         },
         {
           "name": "Zipline空中飛索",
-          "description": "搭乘嘟嘟車到麥當勞商場區(約150peso/10min)<br>走到底到沙灘，沙灘左邊走到底就會看到了！",
+          "description": "",
           "lat": 11.14454,
           "lng": 119.3922257,
           "color": "F9A825"
@@ -138,7 +138,7 @@
         },
         {
           "name": "The Food Truck 泰式",
-          "description": "也算好吃又可愛的卡車餐車",
+          "description": "也好吃又可愛的卡車餐車",
           "lat": 11.1814287,
           "lng": 119.3916427,
           "color": "0288D1"
@@ -235,15 +235,8 @@
           "color": "0288D1"
         },
         {
-          "name": "Chef Mark Style Italian and Japanese Restaurant",
-          "description": "什麼都賣的綜合餐廳<br>但蔬菜天婦羅便宜又好吃，丼飯還可以<br>生魚片不要點，披薩義大利麵普通<br>拉麵比另一間日式好吃，但也不到多好吃<br>就是間，真的不知道要吃什麼再來的店",
-          "lat": 11.1802003,
-          "lng": 119.3883835,
-          "color": "0288D1"
-        },
-        {
           "name": "Osaka Castle 日式",
-          "description": "日本人開的日式料理～<br>但其實普通（？<br>丼飯跟章魚燒可吃！",
+          "description": "日本人開的日式料理～<br>丼飯跟章魚燒可吃！",
           "lat": 11.1813067,
           "lng": 119.3911956,
           "color": "0288D1"
@@ -292,7 +285,7 @@
         },
         {
           "name": "Tutto Passa義大利餐廳",
-          "description": "義大利麵很正中好吃！披薩也好吃！",
+          "description": "義大利麵很好吃！披薩也好吃！",
           "lat": 11.1836798,
           "lng": 119.3932183,
           "color": "0288D1"
@@ -314,7 +307,7 @@
       ]
     },
     {
-      "name": "咖啡廳小食推薦",
+      "name": "咖啡小食",
       "places": [
         {
           "name": "Grounded 100% Arabica Coffee, El Nido Branch",
@@ -324,17 +317,17 @@
           "color": "E65100"
         },
         {
-          "name": "UNOCHA El Nido -The Best Taiwan Milk Tea",
-          "description": "台灣的驕傲，一定要來一杯",
-          "lat": 11.1800287,
-          "lng": 119.3895526,
-          "color": "E65100"
+          "name": "Janu Coffee and Tea",
+          "description": "很漂亮的咖啡茶館，店員會現磨茶給你看",
+          "lat": 11.1799982,
+          "lng": 119.389205,
+          "color": "7CB342"
         },
         {
-          "name": "88 Bar 外的香蕉煎餅攤車",
-          "description": "深深唯一推薦的香蕉or芒果煎餅",
-          "lat": 11.1802886,
-          "lng": 119.3895398,
+          "name": "YoNido! Island Froyo",
+          "description": "超級好吃的優格冰！！必吃！",
+          "lat": 11.179958,
+          "lng": 119.3893914,
           "color": "7CB342"
         },
         {
@@ -359,24 +352,10 @@
           "color": "7CB342"
         },
         {
-          "name": "Potato corner",
-          "description": "深深導遊俗稱的邪惡薯條～好吃！<br>聽說台灣要排隊3小時？",
-          "lat": 11.1794741,
-          "lng": 119.3893849,
-          "color": "7CB342"
-        },
-        {
           "name": "Suavis 沙威瑪",
           "description": "便宜又好吃的沙威瑪捲餅！<br>適合出海回來來一捲！",
           "lat": 11.1802293,
           "lng": 119.38857,
-          "color": "7CB342"
-        },
-        {
-          "name": "Oz El Nido",
-          "description": "verde還沒開前<br>最喜歡的優格碗",
-          "lat": 11.1803228,
-          "lng": 119.3896724,
           "color": "7CB342"
         },
         {
@@ -405,13 +384,6 @@
           "description": "熱壓三明治超級好吃很大一份",
           "lat": 11.1797774,
           "lng": 119.3895177,
-          "color": "7CB342"
-        },
-        {
-          "name": "CB Cafe",
-          "description": "想體驗菲式早餐可來這",
-          "lat": 11.1793768,
-          "lng": 119.3893318,
           "color": "7CB342"
         },
         {
@@ -501,13 +473,6 @@
           "description": "海洋友善防曬乳.衛生棉條這類稀有物可以在這裡找到",
           "lat": 11.1801397,
           "lng": 119.3879394,
-          "color": "795548"
-        },
-        {
-          "name": "Rituals Spa",
-          "description": "要打海芙音波請來這！",
-          "lat": 11.1838106,
-          "lng": 119.3930781,
           "color": "795548"
         }
       ]

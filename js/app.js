@@ -33,7 +33,7 @@ function svg(name) {
 // ── 分類對應的 icon + 顏色（Morandi 彩虹）──
 const CATEGORY_META = {
   '餐廳推薦':        { icon: 'utensils-crossed', color: '#C47878' }, // 紅：霧紅
-  '咖啡廳小食推薦':  { icon: 'coffee',           color: '#D4B26A' }, // 黃：奶油黃
+  '咖啡小食':        { icon: 'coffee',           color: '#D4B26A' }, // 黃：奶油黃
   '行程地標':        { icon: 'mountain-snow',    color: '#8FB38A' }, // 綠：鼠尾草
   '旅館位置':        { icon: 'bed-double',       color: '#7D9CB8' }, // 藍：霧藍
   '商場＆實用':      { icon: 'shopping-bag',     color: '#8583B8' }, // 靛：靛紫
