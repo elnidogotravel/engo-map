@@ -98,15 +98,36 @@ function parseKml(kml) {
   };
 }
 
+// 比較兩份資料時忽略 updatedAt（時間戳每次都不同，不算實質變動）
+function isSameData(a, b) {
+  if (!a || !b) return false;
+  const stripTimestamp = ({ updatedAt, ...rest }) => rest;
+  return JSON.stringify(stripTimestamp(a)) === JSON.stringify(stripTimestamp(b));
+}
+
 async function main() {
   console.log('下載 KML...');
   const kml = await download(KML_URL);
-  fs.writeFileSync(KML_PATH, kml, 'utf8');
-  console.log(`  → ${KML_PATH} (${kml.length} bytes)`);
 
   console.log('解析 KML...');
   const data = parseKml(kml);
+
+  // 讀取舊的 places.json（如果有），比對是否有實質變動
+  let oldData = null;
+  if (fs.existsSync(JSON_PATH)) {
+    try {
+      oldData = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8'));
+    } catch (_) {}
+  }
+
+  if (isSameData(oldData, data)) {
+    console.log('資料沒有變動，保留原檔（不更新時間戳）');
+    return;
+  }
+
+  fs.writeFileSync(KML_PATH, kml, 'utf8');
   fs.writeFileSync(JSON_PATH, JSON.stringify(data, null, 2), 'utf8');
+  console.log(`  → ${KML_PATH} (${kml.length} bytes)`);
   console.log(`  → ${JSON_PATH}`);
   console.log(`  地圖名稱：${data.mapName}`);
   console.log(`  分類數：${data.categories.length}`);
