@@ -413,7 +413,7 @@ html, body {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: calc(var(--catbar-h) + var(--safe-bottom) - 10px);
+  bottom: calc(var(--catbar-h) + var(--safe-bottom));
   background: var(--c-card);
   border-radius: 20px 20px 0 0;
   box-shadow: 0 -10px 30px -10px rgba(62, 58, 52, 0.22);
