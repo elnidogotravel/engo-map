@@ -49,7 +49,7 @@ function isWarnPlace(place) {
   return WARN_KEYWORDS.test(place.description || '');
 }
 
-const DEFAULT_VIEW = { center: [11.229, 119.405], zoom: 12 };
+const DEFAULT_VIEW = { center: [11.1800, 119.3895], zoom: 17 };
 
 let map;
 let cluster;
@@ -68,7 +68,6 @@ async function init() {
     setupInfoModal(data);
     setupSheetClose();
     setupSearch();
-    fitToAll();
   } catch (err) {
     console.error(err);
     alert('載入地圖失敗，請稍後再試');
