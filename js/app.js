@@ -56,6 +56,8 @@ let cluster;
 let allPlaces = []; // { place, category, marker }
 let currentFilter = '__all__';
 let activeMarker = null;
+// 從清單點進詳情時記住分類，讓「關閉詳情」可以回到清單
+let returnToListCategory = null;
 
 // ── 初始化 ──────────────────────────────
 async function init() {
@@ -225,6 +227,7 @@ function openList(category) {
   ul.querySelectorAll('li').forEach((li) => {
     li.addEventListener('click', () => {
       const item = places[parseInt(li.dataset.idx, 10)];
+      returnToListCategory = category; // 記住來源，關閉詳情後回到這個清單
       closeList();
       setTimeout(() => {
         // 用 cluster API 確保 marker 真的在畫面上（如果還在群聚裡會自動展開）
@@ -260,7 +263,10 @@ function renderMarkers(categories) {
         title: place.name,
       });
 
-      marker.on('click', () => openSheet(place, cat.name, isWarn, marker));
+      marker.on('click', () => {
+        returnToListCategory = null; // 直接點 marker，不要回到清單
+        openSheet(place, cat.name, isWarn, marker);
+      });
       cluster.addLayer(marker);
       allPlaces.push({ place, category: cat.name, marker, isWarn });
     });
@@ -326,6 +332,13 @@ function closeSheet() {
   setTimeout(() => sheet.setAttribute('hidden', ''), 300);
   activeMarker = null;
   setActivePin(null);
+
+  // 如果是從清單點進來的，關閉時回到那個清單
+  if (returnToListCategory) {
+    const cat = returnToListCategory;
+    returnToListCategory = null;
+    setTimeout(() => openList(cat), 300);
+  }
 }
 
 function setupSheetClose() {
