@@ -98,10 +98,9 @@ function setupMap() {
 
   L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-  // 免費且美觀的 tile：CartoDB Voyager（英文底圖，適合海島）
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap &copy; CartoDB',
-    subdomains: 'abcd',
+  // 底圖：OpenStreetMap 標準圖磚（CARTO 舊版 rastertiles 已改為需要 API key，會出現浮水印）
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 19,
   }).addTo(map);
 
